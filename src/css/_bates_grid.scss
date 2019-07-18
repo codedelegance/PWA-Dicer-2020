@@ -1,0 +1,102 @@
+.grid {
+  max-width: 100%;
+  min-width: 100%;
+  margin: 0 auto;
+
+  .row {
+    //position: relative;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 5%;
+    margin: 0 auto;
+    text-align: center;
+
+    .cell-1 {
+      width: 8%;
+      min-height: 5%;
+      display: inline-block;
+      position: relative;
+    }
+
+    .cell-2 {
+      width: 16%;
+      min-height: 5%;
+      display: inline-block;
+      position: relative;
+    }
+
+    .cell-3 {
+      width: 24%;
+      min-height: 5%;
+      display: inline-block;
+      position: relative;
+    }
+
+    .cell-4 {
+      width: 32%;
+      min-height: 5%;
+      display: inline-block;
+      position: relative;
+      margin: 0 auto;
+    }
+
+    .cell-5 {
+      width: 40%;
+      min-height: 5%;
+      display: inline-block;
+      position: relative;
+    }
+
+    .cell-6 {
+      width: 48%;
+      min-height: 5%;
+      display: inline-block;
+      position: relative;
+    }
+
+    .cell-7 {
+      width: 56%;
+      min-height: 5%;
+      display: inline-block;
+      position: relative;
+    }
+
+    .cell-8 {
+      width: 64%;
+      min-height: 5%;
+      display: inline-block;
+      position: relative;
+    }
+
+    .cell-9 {
+      width: 72%;
+      min-height: 5%;
+      display: inline-block;
+      position: relative;
+    }
+
+    .cell-10 {
+      width: 80%;
+      min-height: 5%;
+      display: inline-block;
+      position: relative;
+    }
+
+    .cell-11 {
+      width: 88%;
+      min-height: 5%;
+      display: inline-block;
+      position: relative;
+    }
+
+    .cell-12 {
+      width: 100%;
+      min-height: 5%;
+      display: inline-block;
+      position: relative;
+    }
+  }
+}
+
+
+

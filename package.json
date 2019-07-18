@@ -1,0 +1,39 @@
+{
+  "name": "the_dicer",
+  "version": "1.0.5",
+  "description": "Simple dice rolling PWA",
+  "main": "bin/dicer_server",
+  "scripts": {
+    "start": "node bin/dicer_server"
+  },
+  "author": "Howard Bates",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 12.2.0"
+  },
+  "dependencies": {
+    "ejs": "latest",
+  },
+  "devDependencies": {
+	"jsdoc": "latest",
+    "gulp": "^4.0.2",
+	"gulp-babel": "^8.0.0",
+    "gulp-git": "^2.9.0",
+    "gulp-minify-ejs": "^1.0.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-terser": "^1.2.0",
+	"@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"	
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedelegance/PWA-Dicer-2020.git"
+  },
+  "keywords": [
+    "pwa"
+  ],
+  "bugs": {
+    "url": "https://github.com/codedelegance/PWA-Dicer-2020/issues"
+  },
+  "homepage": "https://github.com/codedelegance/PWA-Dicer-2020#readme"
+}

@@ -1,0 +1,42 @@
+@font-face {
+     font-family: "Uncial_Antiqua";
+     font-display: auto;
+     src: local("Uncial_Antiqua"), url("../fonts/Uncial_Antiqua.woff2") format('woff2');
+}
+
+$colors: (
+        primary: #0c3d5d,
+        accent: white,
+        blk: black,
+        gry: gray
+);
+
+$padding: 15px;
+$borders: 15px;
+$desktop: 840px;
+
+@function getColor($color-name) {
+     @return map-get($colors, $color-name)
+}
+
+@mixin desktop {
+     @media (min-width: #{$desktop}) {
+          @content;
+     }
+}
+
+@mixin center {
+     margin: 0 auto;
+}
+
+@mixin glow {
+     text-shadow: 0 0 20px getColor(primary);
+}
+
+@mixin spaced {
+     letter-spacing: 0.5em;
+}
+
+@mixin border-radius($value) {
+     border-radius: $value;
+}

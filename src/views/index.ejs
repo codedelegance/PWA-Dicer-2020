@@ -1,0 +1,85 @@
+<% include public/views/header.ejs %>
+<form id="rollResults">
+    <div class="grid">
+        <div class="row">
+            <div class="cell-12 bgColor" id="titleBar">
+                <p>The Dicer</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cell-5">&nbsp</div>
+            <div class="cell-2" id="dicesPic">
+                <img src="public/images/dices.png" alt="dice">
+            </div>
+            <div class="cell-5">&nbsp</div>
+        </div>
+        <div class="row">
+            <div class="cell-12"><h2 id="results">&nbsp;</h2></div>
+        </div>
+        <div class="row" id="resultsLabel">
+            <div class="cell-12"><h3>Rolls</h3></div>
+        </div>
+        <div class="row">
+            <div class="cell-3">&nbsp;</div>
+            <div class="cell-6"><h2 id="totalResult">&nbsp</h2></div>
+            <div class="cell-3">&nbsp;</div>
+        </div>
+        <div class="row" id="totalResultLabel">
+            <div class="cell-12"><h3>Total Result</h3></div>
+        </div>
+        <div class="row" id="dieQtySlider">
+            <div class="cell-12">
+                <input type="range" min="1" max="10" value="1" step="1" id="slider" aria-label="slider">
+            </div>
+        </div>
+        <div class="row" id="dieQtyLabel">
+            <div class="cell-12">
+                <span>Dice QTY:&nbsp;</span><span id="dieQty">00</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cell-1 die">
+                <p class="dieLabel">d2</p>
+                <input type="radio" name="dieType" id="d2" value="2" aria-label="d2">
+            </div>
+            <div class="cell-1 die">
+                <p class="dieLabel">d4</p>
+                <input type="radio" name="dieType" id="d4" value="4" aria-label="d4">
+            </div>
+            <div class="cell-1 die">
+                <p class="dieLabel">d6</p>
+                <input type="radio" name="dieType" id="d6" value="6" aria-label="d6">
+            </div>
+            <div class="cell-1 die">
+                <p class="dieLabel">d8</p>
+                <input type="radio" name="dieType" id="d8" value="8" aria-label="d8">
+            </div>
+            <div class="cell-1 die">
+                <p class="dieLabel">d10</p>
+                <input type="radio" name="dieType" id="d10" value="10" aria-label="d10">
+            </div>
+            <div class="cell-1 die">
+                <p class="dieLabel">d12</p>
+                <input type="radio" name="dieType" id="d12" value="12" aria-label="d12">
+            </div>
+            <div class="cell-1 die">
+                <p class="dieLabel">d20</p>
+                <input type="radio" name="dieType" id="d20" value="20" aria-label="d20">
+            </div>
+            <div class="cell-1 die">
+                <p class="dieLabel">d100</p>
+                <input type="radio" name="dieType" id="d100" value="100"  aria-label="d100">
+            </div>
+        </div>
+        <div class="row" id="rollButtonContainer">
+            <div class="cell-10 cbutton" id="rollButton">
+                <h1>R o l l!</h1>
+            </div>
+        </div>
+    </div>
+</form>
+
+<!-- SCRIPTS -->
+<script src="public/javascripts/main.js" type="module"></script>
+
+<% include public/views/footer.ejs %>

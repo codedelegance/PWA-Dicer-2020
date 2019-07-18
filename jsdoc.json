@@ -1,0 +1,23 @@
+{
+  "plugins": [],
+  "recurseDepth": 5,
+  "source": {
+    "include": "public/javascripts",
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "sourceType": "module",
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc","closure"]
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false
+  },
+  "opts": {
+    "destination": "./documentation/jsdocs",
+    "encoding": "utf8",
+    "recurse": true
+  }
+}
